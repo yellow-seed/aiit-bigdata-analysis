@@ -29,6 +29,7 @@ jobs:
         run: |
           git config user.name "yellow-seed"
           git config user.email "yellowseedandwhitewizard@gmail.com"
+          git config pull.rebase false
           git add .
           git commit -m "update csv"
           git pull otigin main
