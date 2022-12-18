@@ -33,5 +33,5 @@ jobs:
           git config --global pull.ff only
           git add .
           git commit -m "update csv"
-          git pull origin main
+          git pull
           git push origin main
