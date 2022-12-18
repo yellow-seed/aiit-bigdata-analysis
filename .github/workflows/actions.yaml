@@ -31,4 +31,5 @@ jobs:
           git config user.email "yellowseedandwhitewizard@gmail.com"
           git add .
           git commit -m "update csv"
+          git pull otigin main
           git push origin main
