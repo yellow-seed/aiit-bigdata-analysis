@@ -29,6 +29,8 @@ jobs:
         run: |
           git config --global user.name "yellow-seed"
           git config --global user.email ""
+          git config --global pull.rebase false
+          git config --global pull.ff only
           git add .
           git commit -m "update csv"
           git pull origin main
